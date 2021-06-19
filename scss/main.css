@@ -865,7 +865,7 @@ footer {
 */
 @media (max-width: 70rem) {
   .main-title {
-    font-size: 6.5rem;
+    font-size: 6rem;
   }
   .main-sub-title {
     padding: 30px;
@@ -887,6 +887,10 @@ footer {
     padding: 0.7rem 1.2rem;
   }
 }
+
+/*
+  SWIPER JS
+*/
 
 .section-swiper {
   margin: 5rem 38px 19rem 38px;
@@ -998,7 +1002,10 @@ footer {
   border-radius: 0 !important;
 }
 
-/*========================FULL MENU=====================*/
+/*
+  MENU PAGE
+*/
+
 .menu-section-one {
   background: #fdfaf7;
   margin-bottom: 0;
@@ -1277,7 +1284,10 @@ footer {
   }
 }
 
-/*========================ABOUT=====================*/
+/*
+  ABOUT PAGE
+*/
+
 .about-section-one {
   background: #fdfaf7;
 }
@@ -1322,7 +1332,10 @@ footer {
   background-size: cover;
 }
 
-/*========================RESERVATION=====================*/
+/*
+  RESERVATION/ BOOKING PAGE
+*/
+
 .small-section-one {
   background: #ad8e5f;
   min-height: 520px;
