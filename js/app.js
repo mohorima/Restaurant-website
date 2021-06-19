@@ -120,7 +120,7 @@ gsap.from(".layer2", {
 
 gsap.from(".text-0", {
   opacity: 0.7,
-  y: -50,
+  scale: 0.6,
   duration: 2.5,
 });
 gsap.from(".main-sub-title", {
