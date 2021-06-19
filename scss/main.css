@@ -865,7 +865,7 @@ footer {
 */
 @media (max-width: 70rem) {
   .main-title {
-    font-size: 6rem;
+    font-size: 7rem;
   }
   .main-sub-title {
     padding: 30px;
@@ -885,6 +885,12 @@ footer {
   .btn-block {
     font-size: 1.4rem;
     padding: 0.7rem 1.2rem;
+  }
+}
+
+@media (max-width: 50rem) {
+  .main-title {
+    font-size: 6rem;
   }
 }
 
