@@ -891,6 +891,7 @@ footer {
 @media (max-width: 50rem) {
   .main-title {
     font-size: 6rem;
+    font-weight: 600;
   }
 }
 
