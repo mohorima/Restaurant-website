@@ -119,6 +119,8 @@ footer .site-logo img {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #dabf98;
+  background: url("/images/menu-bg.jpg") no-repeat center;
+  background-size: cover;
   clip-path: circle(100px at 100% -20%);
   -webkit-clip-path: circle(100px at 100% -20%);
   transition: all 1s ease-out;
