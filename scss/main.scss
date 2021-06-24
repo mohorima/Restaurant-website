@@ -289,6 +289,9 @@ section {
     z-index: -3;
     font-size: 9rem;
     margin-top: 500px;
+    @media (max-width: 70rem) {
+      font-size: 6rem;
+    }
   }
 }
 .down {
