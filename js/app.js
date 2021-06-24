@@ -1,6 +1,7 @@
 //sticky header
 const header = document.querySelector("header");
 const sectionOne = document.querySelector(".section-one");
+const logoSvg = document.querySelector(".site-logo-svg");
 
 const sectionOneOptions = {
   rootMargin: "-200px 0px 0px 0px",
@@ -13,8 +14,10 @@ const sectionOneObserver = new IntersectionObserver(function (
   entries.forEach((entry) => {
     if (!entry.isIntersecting) {
       header.classList.add("nav-scrolled");
+      logoSvg.classList.add("site-logo-svg-scrolled");
     } else {
       header.classList.remove("nav-scrolled");
+      logoSvg.classList.remove("site-logo-svg-scrolled");
     }
   });
 },
@@ -108,21 +111,20 @@ gsap.from(".layer1", {
   scale: 0.6,
   duration: 3,
   ease: "back.out(1.7)",
-  delay: 0.5,
+  delay: 0.6,
   scrub: true,
 });
 
 gsap.from(".layer2", {
-  opacity: 0.8,
-  scale: 0.8,
+  opacity: 0.5,
+  scale: 0.6,
   duration: 1.5,
 });
 
 gsap.from(".text-0", {
   opacity: 0.7,
-  scale: 0.6,
-  ease: "back.out(1.7)",
-  duration: 1.5,
+  y: -50,
+  duration: 2.5,
 });
 gsap.from(".main-sub-title", {
   opacity: 0.3,
