@@ -179,33 +179,14 @@ gsap.utils.toArray(".img-left").forEach((img) => {
 });
 
 gsap.utils.toArray(".text-1").forEach((text) => {
-  ScrollTrigger.matchMedia({
-    // desktop
-    "(min-width: 50rem)": function () {
-      gsap.from(text, {
-        y: 400,
-        opacity: 0.4,
-        duration: 1.5,
-        scrollTrigger: {
-          trigger: text,
-          start: "top bottom",
-          end: "top center",
-        },
-      });
-    },
-
-    // mobile
-    "(max-width: 50rem)": function () {
-      gsap.from(text, {
-        x: -300,
-        opacity: 0.4,
-        duration: 1.5,
-        scrollTrigger: {
-          trigger: text,
-          start: "top bottom",
-          end: "top center",
-        },
-      });
+  gsap.from(text, {
+    x: -300,
+    opacity: 0.4,
+    duration: 1.5,
+    scrollTrigger: {
+      trigger: text,
+      start: "top bottom",
+      end: "top center",
     },
   });
 });
