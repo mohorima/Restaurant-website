@@ -757,7 +757,7 @@ footer {
 }
 
 .main-title-home{
-  margin-top: -210px;
+  margin-top: -230px;
 }
 
 .main-sub-title {
@@ -766,7 +766,7 @@ footer {
   z-index: 0;
   font-family: "Herr Von Muellerhoff", cursive;
   font-style: italic;
-  font-size: 10rem;
+  font-size: 9.5rem;
   color: #dabf98;
 }
 
