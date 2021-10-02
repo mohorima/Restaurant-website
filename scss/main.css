@@ -428,11 +428,11 @@ section {
 }
 
 .moving-img img {
-  border-radius: 40% 40% 0px 0;
-  -webkit-border-radius: 40% 40% 0px 0;
-  -moz-border-radius: 40% 40% 0px 0;
-  -ms-border-radius: 40% 40% 0px 0;
-  -o-border-radius: 40% 40% 0px 0;
+  border-radius: 50% 50% 0px 0;
+  -webkit-border-radius: 50% 50% 0px 0;
+  -moz-border-radius: 50% 50% 0px 0;
+  -ms-border-radius: 50% 50% 0px 0;
+  -o-border-radius: 50% 50% 0px 0;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -467,7 +467,7 @@ section {
 }
 
 .moving-img .layer1 img {
-  height: 420px;
+  height: 390px;
   width: 310px;
 }
 
@@ -488,7 +488,7 @@ section {
 }
 
 .moving-img .layer2 img {
-  height: 500px;
+  height: 480px;
   width: 390px;
 }
 
