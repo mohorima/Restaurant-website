@@ -491,7 +491,7 @@ section {
 @media (max-width: 50rem) {
   .moving-img .layer2 img {
     height: 63vh;
-    width: 63vw;
+    width: 80vw;
   }
 }
 
@@ -757,7 +757,7 @@ footer {
 }
 
 .main-title-home{
-  margin-top: -230px;
+  margin-top: -250px;
 }
 
 .main-sub-title {
