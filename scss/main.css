@@ -357,10 +357,6 @@ section {
           align-items: center;
 }
 
-.section-one h1 {
-  margin-top: -130px;
-}
-
 .section-one .hero {
   z-index: -3;
   font-size: 9rem;
@@ -757,6 +753,7 @@ footer {
   z-index: 1;
   padding: 0;
   margin: 0;
+  margin-top: -130px;
 }
 
 .main-title-home{
