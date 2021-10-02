@@ -428,9 +428,13 @@ section {
 }
 
 .moving-img img {
-  border: 0.7rem solid #dabf98;
+  border-radius: 40% 40% 0px 0;
+  -webkit-border-radius: 40% 40% 0px 0;
+  -moz-border-radius: 40% 40% 0px 0;
+  -ms-border-radius: 40% 40% 0px 0;
+  -o-border-radius: 40% 40% 0px 0;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .moving-img .layer1 {
